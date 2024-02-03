@@ -2,7 +2,7 @@ import pygsheets
 import pandas as pd
 
 # Linking service account
-gc = pygsheets.authorize(service_account_file="testask-383916-7365cb3f27e9.json")
+gc = pygsheets.authorize(service_account_file="")
 
 # Opening spreadsheet.
 sh_pyg = gc.open("work_table")
